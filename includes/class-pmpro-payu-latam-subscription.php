@@ -674,10 +674,9 @@ class PMProGateway_payulatamsubscription extends PMProGateway
                     // -- Datos de la tarjeta de crédito --
                     // Ingresa aquí el token de la tarjeta de crédito
                     PayUParameters::TOKEN_ID => $token,
-                    //PayUParameters::CREDIT_CARD_EXPIRATION_DATE => $order->card_expiry,
                     // Ingresa aquí el código de seguridad de la tarjeta de crédito
-                    PayUParameters::CREDIT_CARD_SECURITY_CODE => '7777', // 7777
-                    PayUParameters::PROCESS_WITHOUT_CVV2 => false, //
+                    //PayUParameters::CREDIT_CARD_SECURITY_CODE => '7777', // 7777
+                    PayUParameters::PROCESS_WITHOUT_CVV2 => true, //
                     // Ingresa aquí el nombre de la tarjeta de crédito
                     PayUParameters::PAYMENT_METHOD => $card->paymentMethod,
 
