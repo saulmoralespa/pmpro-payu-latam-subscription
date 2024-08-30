@@ -3,7 +3,7 @@ Contributors: saulmorales
 Donate link: https://saulmoralespa.com/donation
 Tags: pmpro, paid memberships pro, gateway, payU latam, subscription, checkout, registration
 Requires at least: 6.0
-Tested up to: 6.5.4
+Tested up to: 6.6.1
 Requires PHP: 8.0
 Stable tag: 0.0.1
 License: GNU General Public License v3.0
